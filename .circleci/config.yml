@@ -35,7 +35,6 @@ jobs:
             Keys: "npm-packages"
             paths:
               - /src/node_modules
-        - run: npm i
         - run: npm audit
 
 # Invoke jobs via workflows
